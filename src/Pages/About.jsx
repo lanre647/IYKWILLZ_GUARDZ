@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 function About() {
   return (
     <div className="min-h-screen bg-black text-white py-24 px-6 md:px-20">
-
       {/* Header Section */}
       <motion.div
         initial={{ opacity: 0, y: -30 }}
@@ -11,8 +10,13 @@ function About() {
         transition={{ duration: 1 }}
         className="text-center mb-16"
       >
-        <h1 className="text-5xl font-bold font-serif mb-4">About IYKWILLZ_GUARDZ</h1>
-        <p className="text-gray-400 text-lg">Redefining elite protection and ushering services with style, strength, and discretion.</p>
+        <h1 className="text-3xl md:text-5xl font-bold font-serif mb-4">
+          About IYKWILLZ_GUARDZ
+        </h1>
+        <p className="text-gray-400 text-base md:text-lg">
+          Redefining elite protection and ushering services with style,
+          strength, and discretion.
+        </p>
       </motion.div>
 
       {/* Brand Story */}
@@ -25,11 +29,14 @@ function About() {
       >
         <h2 className="text-3xl font-semibold mb-4">Our Story</h2>
         <p className="text-gray-300 leading-relaxed">
-          Born from a passion for protection and luxury, IYKWILLZ_GUARDZ was founded with the vision of setting a new standard. 
-          We combine elite physical security, VIP hospitality, and absolute discretion to serve distinguished clients worldwide.
+          Born from a passion for protection and luxury, IYKWILLZ_GUARDZ was
+          founded with the vision of setting a new standard. We combine elite
+          physical security, VIP hospitality, and absolute discretion to serve
+          distinguished clients worldwide.
         </p>
         <p className="text-gray-300 leading-relaxed">
-          Whether guarding a red carpet event or providing personal bodyguards, our team delivers excellence, always.
+          Whether guarding a red carpet event or providing personal bodyguards,
+          our team delivers excellence, always.
         </p>
       </motion.div>
 
@@ -68,7 +75,6 @@ function About() {
           Partner with Us
         </a>
       </motion.div>
-
     </div>
   );
 }
