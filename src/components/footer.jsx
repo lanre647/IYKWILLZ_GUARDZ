@@ -9,7 +9,7 @@ function Footer() {
             IYKWILLZ<span className="text-pink-500 not-italic">_GUARDZ</span>
           </h2>
           <p className="text-sm mt-2">
-            © {new Date().getFullYear()} IYKWILLZ_GUARDZ. All rights reserved.
+            © {new Date().getFullYear()} IYKWILLZ_GUARDZ. All rights reserved..
           </p>
         </div>
 
