@@ -21,7 +21,7 @@ function Footer() {
             About
           </a>
           <a href="/contact" className="hover:text-pink-500 transition">
-            Contact
+            Contactt
           </a>
         </div>
       </div>
