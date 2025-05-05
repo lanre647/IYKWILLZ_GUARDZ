@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
 import Home from "./Pages/Home";
 import Services from "./Pages/Services";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Success from "./components/Success";
+import Bottom from "./components/Bottom";
 
 function App() {
   return (
@@ -18,11 +18,11 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/success" element={<Success/>}/>
+          <Route path="/success" element={<Success />} />
         </Routes>
       </main>
 
-      {/* <Footer /> */}
+      <Bottom />
     </div>
   );
 }
