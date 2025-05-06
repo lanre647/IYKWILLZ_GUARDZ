@@ -43,7 +43,7 @@ function About() {
       {/* Stats Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
         {[
-          { number: "300+", label: "Clients Protected" },
+          { number: "100+", label: "Clients Protected" },
           { number: "150+", label: "Luxury Events Served" },
           { number: "99.9%", label: "Client Satisfaction" },
         ].map((stat, idx) => (
